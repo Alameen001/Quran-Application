@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:quran/quran.dart' as quran;
+import 'package:quranapp1/drawer.dart';
 import 'package:quranapp1/screens/drowr.dart';
 import 'package:quranapp1/screens/surathindex.dart';
 
@@ -15,7 +16,7 @@ class _ScreenhomeState extends State<Screenhome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: drawer(),
+       drawer: MyCustomUI(),
       appBar: AppBar(
         backgroundColor: Colors.black,
         title: Text('Surah'),
